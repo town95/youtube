@@ -1,3 +1,0 @@
-curl --location --request PATCH 'https://api.cloudflare.com/client/v4/zones/your zone id/ssl/universal/settings' --header 'X-Auth-Email: your cloudflare account email' --header 'X-Auth-Key: your api token' --header 'Content-Type: application/json' --data-raw '{"enabled":true,"certificate_authority":"ssl_com"}'
-
-{"result":{"enabled":true,"certificate_authority":"ssl_com"},"success":true,"errors":[],"messages":[]}
